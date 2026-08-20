@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/inmetro_instrumentos_vc_tanque-mcp",
+  "title": "INMETRO Instrumentos: Veículos Tanque",
+  "description": "INMETRO Instrumentos: Vehicles Tanque, official-source lookup. Platform-hosted, pay per query with p",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/inmetro_instrumentos_vc_tanque-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_inmetro_instrumentos_vc_tanque"
+    }
+  ]
+}
